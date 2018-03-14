@@ -22,6 +22,7 @@ enum Direction{          //蛇行走的方向
 enum State{
 	ERROR_SELF,  //咬到自己
 	ERROR_WALL,  //撞到墙
+	NORMAL,      //正常状态
 	SUCCESS      //通关
 } State;
 
