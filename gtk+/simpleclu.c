@@ -7,7 +7,7 @@ char buf[50] = "";
 void deal_num(GtkButton *button, gpointer data){
 	const char *text = gtk_button_get_label(button);
 
-	// 退个操作
+	// 退格操作
 	if (0 == strcmp(text, "c")){
 		buf[strlen(buf) - 1] = 0;
 	}
