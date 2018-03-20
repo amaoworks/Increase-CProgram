@@ -1,2 +1,2 @@
-test : my_calculator.c
-	gcc my_calculator.c -o test -lm `pkg-config --cflags --libs gtk+-2.0`
+calculator : algorithm.c interface.c my_cal.c
+	gcc algorithm.c interface.c my_cal.c -o calculator -lm `pkg-config --cflags --libs gtk+-2.0`
